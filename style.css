@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 180px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 40px; 
+}
+
+.city-card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebe6e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+}
+.city-card:hover{
+    transform: translateY(-5px);
+}
+
+.city-card h2 {
+    color: #333;
+    text-align: center; 
+}
+
+.city-card p {
+    color: #666;
+    text-align: center; 
+}
+
+.city-card img {
+    width: 60%; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    align-items: center;
+}
